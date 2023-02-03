@@ -3,8 +3,24 @@
 <head>
 </head>
 <body>
+    <br>
+  <button id="b_run1">Run 1</button>
+  <br>
+  <button id="b_run2">Run 2</button>
+  <br>
+  <button id="b_run3">Run 3</button>
+  <br>
   <script>
     var game="https://www.speedrun.com/run1/resources/run1.swf";
+		document.getElementById('b_run1').onclick = function() {
+            game.innerHTML = "run1.swf";
+        }
+		document.getElementById('b_run2').onclick = function() {
+          	game.innerHTML = "run2.swf";
+        }
+		document.getElementById('b_run3').onclick = function() {
+            game.innerHTML = "run3.swf";
+        }
   </script>
   <code>
    <object data=game.innerHTML width="600" height="600" value=game.innerHTML name=game.innerHTML>
@@ -12,13 +28,7 @@
     </object>
     <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
   </code>
-  <br>
-  <button onClick=(game.innerHTML="run1.swf")>Run 1</button>
-  <br>
-  <button onClick=(game.innerHTML="run2.swf")>Run 2</button>
-  <br>
-  <button onClick=(game.innerHTML="run3.swf")>Run 3</button>
-  <br>
+
  <p>0.5.5</p>
 <p id=output></p>
 </body>
