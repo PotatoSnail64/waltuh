@@ -12,19 +12,22 @@
   <br>
   <script>
     var game="https://www.speedrun.com/run1/resources/run1.swf";
-		document.getElementById('b_run1').onclick = function() {
-            game.innerHTML = "run1.swf";
+		document.getElementById("b_run1").onclick = function() {
+           	game.innerHTML = "run1.swf";
+		document.getElementById("game").contentDocument=location.reload();
         }
-		document.getElementById('b_run2').onclick = function() {
+		document.getElementById("b_run2").onclick = function() {
           	game.innerHTML = "run2.swf";
+		document.getElementById("game").contentDocument=location.reload();
         }
-		document.getElementById('b_run3').onclick = function() {
-            game.innerHTML = "run3.swf";
+		document.getElementById("b_run3").onclick = function() {
+         	game.innerHTML = "run3.swf";
+		document.getElementById("game").contentDocument=location.reload();
         }
   </script>
   <code>
    <object data=game.innerHTML width="600" height="600" value=game.innerHTML name=game.innerHTML>
-      <embed src=game.innerHTML width="600" height="600"/>
+      <embed id="game" src=game.innerHTML width="600" height="600"/>
     </object>
     <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
   </code>
