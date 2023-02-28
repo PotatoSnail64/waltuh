@@ -1,4 +1,9 @@
+body{
+ background-color: powderblue;
+}
+
 p {
  color: #ff0000;
- font-size: 50px;
+ font-size: 200%;
+ font-family: courier;
 }
