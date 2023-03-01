@@ -6,11 +6,10 @@
   </head>
   <body>
     <p> The time is:</p>
-   <p id="demo"></p>
+   <p id="date"></p>
 <script>
-const time = document.getElementById("demo");
-time.innerHTML=Date();
-  setInterval(updateTime, 1000);
+var time = document.getElementById("date");
+time.innerHTML=new Date();
 </script>
     
     <hr>
