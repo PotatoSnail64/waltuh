@@ -3,6 +3,7 @@ body{
 }
 
 p {
+ line-height: 60%;
  color: #000066;
  font-size: 200%;
  font-family: courier;
