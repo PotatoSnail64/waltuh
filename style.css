@@ -11,10 +11,8 @@ p {
 
 button {
  border-color: #00ccff;
- border-left-style: solid;
- border-weight: 7px;
- background-color: powderblue;
- font-size: 30px;
+ border-left: 10px solid powderblue;
+ font-size: 25px;
 }
 
 hr {
