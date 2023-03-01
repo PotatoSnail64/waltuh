@@ -1,5 +1,5 @@
 body{
- background-color: powderblue;
+ background-color: #eeffee;
 }
 
 p {
@@ -7,4 +7,15 @@ p {
  color: #000000;
  font-size: 200%;
  font-family: courier;
+}
+
+button {
+ border-color:#00ccff;
+ border-left-style:solid;
+ border-weight:7px;
+ background-color: powderblue;
+}
+
+hr {
+ border-bottom: 5px solid black;
 }
