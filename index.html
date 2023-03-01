@@ -4,15 +4,23 @@
     <title>Waltuh</title>
    <link rel="icon" href="https://compote.slate.com/images/fb69a16d-7f35-4103-98c1-62d466196b9a.jpg?crop=590%2C375%2Cx0%2Cy0&width=840">
 <link rel="stylesheet" href="style.css"/>
+        <script type="text/javascript"> 
+function display_c(){
+var refresh=1000; // Refresh rate in milli seconds
+mytime=setTimeout('display_date()',refresh)
+}
+
+function display_date() {
+var x = new Date()
+document.getElementById('date').innerHTML = x;
+display_c();
+ }
+</script>
   </head>
-  <body>
+  <body onload=display_date();>
     <p> The time is:</p>
    <p id="date"></p>
-<script>
-var time = document.getElementById("date");
-time.innerHTML=new Date();
-</script>
-    
+
     <hr>
     <options>
     <button onclick="location.href='https://potatosnail64.github.io/waltuh/style.css';">Flash Emulator</button>
@@ -21,6 +29,6 @@ time.innerHTML=new Date();
     <button onclick="location.href='https://potatosnail64.github.io/waltuh/style.css';">Flash Emulator</button>
     </options>
     <br>
-    <p>Version: 0.0.3</p>
+    <p>Version: 0.0.4</p>
   </body>
 </html>
