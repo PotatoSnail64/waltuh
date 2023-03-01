@@ -10,9 +10,9 @@ p {
 }
 
 button {
- border-left: 10px solid powderblue;
+ border-left: 10px solid lightblue;
  font-size: 25px;
- background-color: #2596be;
+ background-color: powderblue;
 }
 
 hr {
