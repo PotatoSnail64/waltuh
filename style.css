@@ -10,10 +10,11 @@ p {
 }
 
 button {
- border-color:#00ccff;
- border-left-style:solid;
- border-weight:7px;
+ border-color: #00ccff;
+ border-left-style: solid;
+ border-weight: 7px;
  background-color: powderblue;
+ font-size: 30px;
 }
 
 hr {
