@@ -4,6 +4,7 @@ body{
 
 options {
   background-color: #ccddff;
+  height: 50px;
 }
 
 p {
