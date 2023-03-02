@@ -26,4 +26,6 @@ button {
 
 hr {
  border-bottom: 5px solid black;
+ margin-left: 0px;
+ padding-left: 0px;
 }
