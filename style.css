@@ -3,6 +3,7 @@ body{
 }
 
 options {
+  display: grid;
   background-color: #ccddff;
   height: 50px;
 }
