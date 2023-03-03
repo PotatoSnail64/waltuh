@@ -3,7 +3,6 @@ body{
 }
 
 options {
-  display: grid;
   background-color: #ccddff;
   height: 50px;
 }
@@ -16,6 +15,7 @@ p {
 }
 
 button {
+ display: grid;
  text-align: left;
  width: 250px;
  margin: 1em;
